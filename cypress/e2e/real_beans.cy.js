@@ -5,7 +5,7 @@ describe('Tests for Real Beans', () => {
     cy.get('button').click()
   })
 
-context("Catelog shows correct items",() => {
+context("Catelog shows correct items ",() => {
 
   it('Check text of items', () => {
   cy.get('[id="HeaderMenu-catalog"]').click()
